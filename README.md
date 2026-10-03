@@ -5,6 +5,10 @@
 Predicts `Loan_Status` (Y = approved, N = rejected) from the applicant data in
 `data/loan-approval.csv` (614 rows, 69% approved).
 
+**New to this?** Start with [`loan_classifier_walkthrough.ipynb`](loan_classifier_walkthrough.ipynb),
+a step-by-step notebook that explains every stage in plain language, with charts.
+Open it with `jupyter notebook` (or directly on GitHub to read it with outputs).
+
 ```bash
 pip install -r requirements.txt
 python train.py                      # compare models, evaluate, save models/loan_classifier.joblib
